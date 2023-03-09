@@ -1,0 +1,24 @@
+/* changing the background, and aligning to the middle */
+body {
+    background: linear-gradient(to right, #F6490F, #F27813, #EF9614);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ /*  */
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    max-width: 80%;
+    width: 80vw;
+    background-color: aqua;
+    box-shadow: 0 0 5px 4px;
+    height: 70vw;
+
+ }
